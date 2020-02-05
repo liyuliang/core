@@ -114,3 +114,8 @@ var user = map[string]interface{}{
 result, err = db.ExecMap("insert into user (`name`, title, age, alias, nick_name,created) values (?Name,?Title,?Age,?Alias,?NickName,?Created)",
             &user)
 ```
+
+### Update
+```$xslt
+go.mod mod name
+```
