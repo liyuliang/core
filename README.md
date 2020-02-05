@@ -116,6 +116,7 @@ result, err = db.ExecMap("insert into user (`name`, title, age, alias, nick_name
 ```
 
 ### Update
+
 ```$xslt
 go.mod mod name
 ```
